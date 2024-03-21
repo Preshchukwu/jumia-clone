@@ -1,0 +1,13 @@
+.ProductContainer{
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+    box-shadow: 0 0 2px #000;
+    /* border: 1px solid blueviolet; */
+}
+
+
+img{
+    width: 298px;
+    height: 200px;
+}
