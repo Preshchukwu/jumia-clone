@@ -1,3 +1,4 @@
+import NewProduct from "./NewProduct"
 
 
 const Class = ()=>{
@@ -40,7 +41,7 @@ const Class = ()=>{
     return(
         theContents.map((show, index)=>{
             return (
-                <div key={index}> <img src={show.productImage} alt="" /> {show.productName} {show.productPrice}</div>
+                <NewProduct ></NewProduct>
             )
         })
     )
